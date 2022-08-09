@@ -31,13 +31,18 @@ Use case 2: createRecords
 Test Data: [uses 4 different data based records from dataProvide]
 1.	Create entries in DB with different Inputs 'Type', 'Message', Email, CreatedDate, ProcessedDate
 
-Use Case 3:
+Use Case 3: execute
 1. check for the records those are new and not processed based on default column value set for "processeddate"
 2. checks for Type=Urgent and CreateDate=Yesterday
 3. Creates a JIRA task if Point 2 is true
 4. Else send an automated email to the customer with default text
 5. Checks if None of the records are to process, no emails/JIRA will be created
 6. Prints the table with values
+
+## How to run?
+
+1. Run TestNG.xml
+2. Another way of running this using CI/CD tools Jenkins and schedule it on a daily basis.
 
 
 ## Framework Requirements

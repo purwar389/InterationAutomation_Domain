@@ -89,23 +89,22 @@ public class RunnerFD {
 
     public void createJiraTask(String emailAddress) {
 
-        try {
-            //    JiraRestClient jrc = new JiraRestClient("https://jira.example.com", "user", "p4ss");
+   /* Commented out for JIRA authentication API
+   try {
             JiraRestClient jrc = new JiraRestClient("https://jira.atlassian.com", "purwar389", "testing123");
             String issue = jrc.getIssue("PROJ-954");
             System.out.println(issue);
         } catch (Exception ex) {
             System.err.println(ex);
         }
-
-
-
+      */
         System.out.println("JIRA Task created successfully for the user email Address " + emailAddress);
     }
 
     public void sendEmail(String from, String to, String subject, String text, String password) {
 
-        SendEmail.sendEmailToRecipient(from,to,subject,text,password);
+     // Commented out for sending emails , Google has stopped injecting emails from the 3rd party apps from 30 May 2022
+        //   SendEmail.sendEmailToRecipient(from,to,subject,text,password);
         System.out.println("Email sent successfully for the user email Address " + to);
     }
 

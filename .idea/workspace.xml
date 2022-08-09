@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="902a15d1-0fba-4d17-ac51-2157714b89eb" name="Changes" comment="" />
+    <list default="true" id="902a15d1-0fba-4d17-ac51-2157714b89eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RunnerFD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunnerFD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RunnerFD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RunnerFD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +32,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CwjGawJ0YDF85I1aoAKJfJAiSU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -155,6 +175,17 @@
       <updated>1659720449192</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

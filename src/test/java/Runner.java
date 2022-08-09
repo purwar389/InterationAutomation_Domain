@@ -73,18 +73,18 @@ public class Runner {
             boolean flag = false;
             while(rs.next()){
                 //Display values
-                Reporter.log("type: " + rs.getString("type"));
-                Reporter.log(" message: " + rs.getString("message"));
-                Reporter.log(", emailaddress: " + rs.getString("emailaddress"));
-                Reporter.log(", createddate: " + rs.getString("createddate"));
-                Reporter.log(", processeddate: " + rs.getTimestamp("processeddate"));
+                System.out.println("type: " + rs.getString("type"));
+                System.out.println(" message: " + rs.getString("message"));
+                System.out.println(", emailaddress: " + rs.getString("emailaddress"));
+                System.out.println(", createddate: " + rs.getString("createddate"));
+                System.out.println(", processeddate: " + rs.getTimestamp("processeddate"));
 
                 if(rs.getTimestamp("processeddate").equals(t)) {
                     if (rs.getString("createddate").equalsIgnoreCase(s.getYesterdayDateString()) && rs.getString("type").equalsIgnoreCase("urgent")) {
                         s.createJiraTask(rs.getString("emailaddress"));
                         Reporter.log("JIRA Task created successfully for the user email Address " + rs.getString("emailaddress"));
                         s.setProcessed("JIRA" ,rs.getString("emailaddress"), new Timestamp(System.currentTimeMillis()));
-                        Reporter.log("User with "+rs.getString("emailaddress") + " processed on " + new Timestamp(System.currentTimeMillis())+": Logged through "+"Email");
+                        Reporter.log("User with "+rs.getString("emailaddress") + " processed on " + new Timestamp(System.currentTimeMillis())+": Logged through "+"JIRA");
                         flag =true;
                     } else {
                         s.sendEmail("domaintest2908@gmail.com",rs.getString("emailaddress"),"Thanks for your query!","We receieved your enquery, we will get back to your shortly!","test2908");

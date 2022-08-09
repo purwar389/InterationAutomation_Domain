@@ -1,6 +1,6 @@
 # InterationAutomation_Domain Assignment
 
-# Appium-Java--postgresql-TestNG-Maven-Json-JavaX-Mail
+# Database -Java--postgresql-TestNG-Maven-Json-JavaX-Mail
 An integrated automation framework for interacting with below channels:
 1. DB
 2. Email

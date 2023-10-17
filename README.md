@@ -1,4 +1,4 @@
-# InterationAutomation_Domain Assignment
+# InterationAutomation_Domain
 
 # Database -Java--postgresql-TestNG-Maven-Json-JavaX-Mail
 An integrated automation framework for interacting with below channels:
